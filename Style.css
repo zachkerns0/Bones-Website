@@ -1,0 +1,120 @@
+@import url(hhttps://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url(https://tenor.com/view/team-sesh-sesh-bones-surrenderdorothy-gif-18525089);
+
+* {
+    box-sizing: border-box;
+    font-family: 'Dela Gothic One', cursive;
+    color: rgb(131, 141, 141);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin:0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: darkgray;
+}
+
+.main-nav {
+    text-align: center;
+    font-size:2em;
+    font-weight:lighter;
+    border-bottom: 1px solid gray;
+
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.main-header{
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url(Images/desktop-wallpaper-hollow-squad-teamsesh.jpg);
+    background-blend-mode:multiply;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.band-name {
+    text-align: center;
+    color: azure;
+    font-weight: bold;
+    font-size:10em;
+    margin: 0;
+    font-family: 'Creepster';
+
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 3%;
+}
+
+.section-header {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-size: 4em;
+    margin-top: .5;
+}
+
+.about-img {
+    float: left;
+    margin: 15px;
+    border-radius: 10%;
+}
+
+.main-video {
+    width: 1000x;
+    height: 562.50px;
+    margin-bottom: 75px;
+    margin-top: 50px;
+}
+
+.main-footer {
+    background-color: black;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: right;
+}
+
+.footer-nav{
+    padding: 0 0.5em
+}
+
+.footer-nav img {
+    width: 100px;
+    height: 100px;
+}
+
